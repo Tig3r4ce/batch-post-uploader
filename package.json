@@ -1,0 +1,26 @@
+{
+  "name": "batch-post-uploader",
+  "version": "1.0.0",
+  "description": "A back-end batch uploader that can handle any post type, and allows the user to customize the format of the CSV that will be read.",
+  "main": "batch-post-uploader.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin"
+  ],
+  "author": "Mike W. Leavitt",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-noop": "^1.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.2.0",
+    "postcss-assets": "^5.0.0"
+  }
+}
